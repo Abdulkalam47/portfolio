@@ -95,6 +95,20 @@ function showSuccessMessage(message) {
         successMessage.textContent = '';
     }, 5000); // Adjust as needed
 }
+// slider
+document.addEventListener('DOMContentLoaded', function () {
+    var swiper = new Swiper('.work .swiper-container', {
+        navigation: {
+            nextEl: '.work .swiper-button-next',
+            prevEl: '.work .swiper-button-prev',
+        },
+        loop: true, // Optional: loop through slides
+        // Add more Swiper options if needed
+    });
+});
+
+
+
 
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
