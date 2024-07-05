@@ -3,12 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
 
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+
 
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
+       
         <title>Portfolio website complete</title>
     </head>
     <body>
@@ -179,7 +183,7 @@
                 </div>
             </section>
 
-            <!--===== WORK =====-->
+            <!--===== WORK =====
             <section class="work section" id="work">
                 <h2 class="section-title">Work</h2>
 
@@ -204,7 +208,79 @@
                         <img src="app.png" alt="">
                     </a>
                 </div>
+            </section>-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+                <div class="work__container bd-grid">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="work__content">
+                                    <img src="fanta.png" alt="Project 1" class="work__img">
+                                    <div class="work__description">
+                                        <p>
+                                          <b>This a Fanta Landing page</b><br> it create with Html,css and javascript<br>
+                                          it has really amazing good looking scroling animation<br>
+                                          with a help of javascript scroling animation is done
+                                        </p>
+                                        <a href="https://github.com/Abdulkalam47/Web-dev" target="_blank" >Click for project Link</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="work__content">
+                                    <img src="coffee.png" alt="Project 2" class="work__img">
+                                    <div class="work__description">
+                                        <p>
+                                            <b>This a Coffee Landing</b>
+                                            <br>it created with Html css and javascript
+                                            <br>it has coffee cup with beautifull background effect <br>
+                                            
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="work__content">
+                                    <img src="web.png" alt="Project 3" class="work__img">
+                                    <div class="work__description">
+                                        <p>
+                                           <b>This is My Portfolio website</b>
+                                           <br>this was created with html css javascript
+                                           <br>his form created with  API WEB3FORM it has beautiful good looking effects
+                                            <br>
+                                           <a href="">Link of a project</a>
+                                        </p>
+                                    </div>
+                                </div>
+                             </div>
+                            <div class="swiper-slide">
+                                <div class="work__content">
+                                    <img src="app.png" alt="Project 4" class="work__img">
+                                    <div class="work__description">
+                                        <p>
+                                          <b>This a weather app</b>
+                                          <br>This a weather app using html css javascript and free APi of weather 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <!-- Swiper navigation buttons -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Swiper pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
             </section>
+            
+            
+            
+            
+        
 
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
@@ -241,6 +317,7 @@
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--===== MAIN JS =====-->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script src="main.js"></script>
     </body>
 </html>
